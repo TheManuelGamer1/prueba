@@ -1,0 +1,74 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+}
+
+body,
+html {
+    height: 100%;
+}
+
+body {
+    background-color: blue;
+    min-width: 600px;
+    min-height: 600px;
+}
+
+span {
+    color: red;
+    font-size: 45px;
+}
+
+.cabecera {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    font-size: 45px;
+    color: white;
+    border-radius: 10px;
+
+}
+
+.cuerpo {
+    margin-top: 2%;
+    width: 80%;
+    height: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(33, 31, 31);
+}
+
+.contenedor {
+    height: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.13);
+}
+
+.contenedor>div {
+    width: 25%;
+    height: 100%;
+    background-image: url(./img/Interrogantes.gif);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+
+.contenedor>div:hover {
+    background-image: none;
+    background-color: yellow;
+}
+
+.contenedor>div.wally:hover {
+    background-image: url(./img/Wally.gif);
+
+}
